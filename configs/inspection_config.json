@@ -1,0 +1,12 @@
+{
+    "monitor_items": ["device_status", "task_status", "performance", "precision", "risk"],
+    "thresholds": {
+        "latency_warn": 10.0,
+        "cpu_warn": 90.0,
+        "mem_warn": 90.0,
+        "precision_warn": 0.85
+    },
+    "inspection_interval": 5,
+    "report_save_path": "inspection_history.json",
+    "risk_alert_level": 3
+}

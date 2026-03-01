@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "release_date": "2026.Q2",
+    "author": "jakerdliu",
+    "email": "koball@263.net",
+    "github_repo": "https://github.com/jakerdliu/OpenTrit-CHN.git",
+    "next_version": {
+        "v2.0.1": "2026.Q3 发布，新增飞腾D2000 CPU适配、麒麟NeoKylin系统兼容",
+        "v2.1.0": "2026.Q4 发布，支持达梦/人大金仓数据库的量化模型存储、昇腾CANN 7.0适配"
+    },
+    "dependencies": {
+        "base": ["numpy>=1.24.0", "typing>=3.10.0"],
+        "xc_branch": ["mindspore>=2.3.0", "torch>=2.0.0"],
+        "global_branch": ["torch>=2.4.0", "tensorflow>=2.16.0", "onnx>=1.16.0", "tensorrt>=10.0.0"],
+        "test": ["pytest>=7.4.0", "unittest>=2.1.0"]
+    }
+}

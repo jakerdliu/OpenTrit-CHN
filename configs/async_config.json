@@ -1,0 +1,8 @@
+{
+    "timeout": 30,
+    "device_id": 0,
+    "batch_size": 32,
+    "max_concurrent_tasks": 10,
+    "callback_enabled": true,
+    "error_retry_count": 3
+}
